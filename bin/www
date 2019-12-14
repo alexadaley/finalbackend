@@ -1,0 +1,5 @@
+
+var app = require('../app');
+var debug = require('debug')('node-instance:server');
+var http = require('http');
+
