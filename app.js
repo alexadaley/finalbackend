@@ -6,6 +6,7 @@ require('./src/db/db')
 const app = express()
 
 app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 app.use(userRouter)
 
 app.listen(port, () => {
