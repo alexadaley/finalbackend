@@ -1,8 +1,8 @@
 {
   "name": "finalbackend",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts":{"start" : "env-cmd -f /env nodemon src/app.js"},
+  "main": "app.js",
+  "scripts":{"start" : "env-cmd -f ./.env nodemon src/app.js"},
   "repository": "https://github.com/alexadaley/finalbackend.git",
   "author": "alexadaley <a96466@aup.edu>",
   "license": "MIT",
